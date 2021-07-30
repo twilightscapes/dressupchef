@@ -1,23 +1,24 @@
 ---
 template: index-page
 slug: /
-title: Local Professional Photography
-tagline: Capturing Moments of Your Life to Cherish Forever
+title: Dress Up Chef
+tagline: Designer Kitchen Aprons
 youtube: vWNkRK6-oU4
-featuredImage: /assets/4B4A9560.jpg
+featuredImage: /assets/shirts.png
 cta:
-  ctaText: See the photos
+  ctaText: See the Aprons
   ctaLink: /photos
 ---
 
-Hi, I'm Todd and I'm a photographer who turned into a web geek who turned back into a photographer.
-
-In doing so, I've learned to meld the technical side of things along with the more creative aspects.
-
-I've strived to bring the power of simple, fast and flexible websites with features that are designed for photographers, by a photographer.
+## Welcome to Dress Up Chef!
 
 
-<blockquote>This sample site is designed to show the different elements available to you to choose from and how they can be incorporated onto your own site. </blockquote>
+ This site became an outlet for a hobby that I took up during Hurricane Katrina. 
+ 
+ I started by creating an apron for myself and then others saw it and wanted one too.
+
+
+<blockquote>Soon, I had made one for all of my friends, so I figured ya'll might like one too! </blockquote>
 
 
 

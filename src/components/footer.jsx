@@ -164,15 +164,15 @@ export function Footer() {
       <div className={blurb}>
 
 
-        <Link state={{modal: true}} to="/contact/" className="navbar-item  button fire" style={{margin:'2rem'}}>Get Your Booking Now</Link>
+        {/* <Link state={{modal: true}} to="/contact/" className="navbar-item  button fire" style={{margin:'2rem'}}>Get Your Booking Now</Link> */}
 
  <div >
         {/* <Social /> */}
 
-        <div className="social-icons" style={{textAlign:'center', justifyContent:'center', margin:'3rem 5px'}}>
+        {/* <div className="social-icons" style={{textAlign:'center', justifyContent:'center', margin:'3rem 5px'}}>
   <div className="socialtext" style={{fontSize:'14px'}}>I&apos;m<br />Social</div>
         {sIcons}
-        </div>
+        </div> */}
         </div>
 
         

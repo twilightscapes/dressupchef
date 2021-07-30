@@ -214,10 +214,10 @@ export default function Product({ data: { product, suggestions } }) {
 
 <div className="flexcheek" style={{width:'70%'}}>
 <ShareSocial className="print" />
-            <div className={breadcrumb}>
+            {/* <div className={breadcrumb}>
               <Link to={product.productTypeSlug}>{product.productType}</Link>
               
-            </div>
+            </div> */}
             <h1 className={header} style={{margin:'3rem 0 0 0'}}>{title}</h1>
             <div className={productDescription} style={{paddingTop:'2rem'}} dangerouslySetInnerHTML={{ __html: descriptionHtml }} />
 
@@ -253,7 +253,7 @@ export default function Product({ data: { product, suggestions } }) {
                 ))}
             </fieldset>
             <div className={addToCartStyle}>
-              Qty: &nbsp;<NumericInput
+              {/* Qty: &nbsp;<NumericInput
                 aria-label="Quantity"
                 onIncrement={() => setQuantity((q) => Math.min(q + 1, 20))}
                 onDecrement={() => setQuantity((q) => Math.max(1, q - 1))}
@@ -262,14 +262,14 @@ export default function Product({ data: { product, suggestions } }) {
                 min="1"
                 max="20"
               />
-              <br /><br />
+              <br /><br /> */}
               <AddToCart
                 variantId={productVariant.storefrontId}
                 quantity={quantity}
                 available={available}
               />
             </div>
-            <div className="taggage" style={{display:'flex', flexWrap:'wrap !important', maxWidth:'100vw', margin:'3rem 0 2rem 0', overflow:'hidden'}}> 
+            {/* <div className="taggage" style={{display:'flex', flexWrap:'wrap !important', maxWidth:'100vw', margin:'3rem 0 2rem 0', overflow:'hidden'}}> 
               <span className={labelFont}>Type</span>
               <span className={tagList}>
                 <Link to={product.productTypeSlug}>{product.productType}</Link>
@@ -282,7 +282,7 @@ export default function Product({ data: { product, suggestions } }) {
                   <Link to={`/search?t=${tag}`}>{tag}</Link>
                 ))}
               </span>
-            </div>
+            </div> */}
             </span>
             
 
@@ -379,7 +379,7 @@ export default function Product({ data: { product, suggestions } }) {
 
 
 <div style={{padding:'5vh 5vw', borderTop:'0px solid', marginTop:'3rem'}}>
-     <CommentBox />
+     {/* <CommentBox /> */}
      
      </div>
             

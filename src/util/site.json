@@ -1,19 +1,19 @@
 {
   "meta": {
-    "iconimage": "/assets/lambert-photography-logo.svg",
-    "companyname": "Propel Photo",
-    "siteUrl": "https://propelphoto.com/",
+    "iconimage": "/assets/dressupchef-logo.svg",
+    "companyname": "Dress Up Chef",
+    "siteUrl": "https://dressupchef.com/",
     "twitterUsername": "toddlambert",
-    "siteTitleDefault": "Site Title Default",
-    "siteTitle": "Site Title",
+    "siteTitleDefault": "Designer Kitchen Aprons",
+    "siteTitle": "Dress Up Chef",
     "titleTemplate": "%s",
-    "twitter": "yourtwittername",
+    "twitter": "toddlambert",
     "siteImage": "/default-og-image.jpg",
-    "siteDescription": "Site Description",
-    "title": "Site Title",
+    "siteDescription": "Designer Kitchen Aprons",
+    "title": "Dress Up Chef",
     "hrefLang": "en",
     "image": "/assets/default-og-image.jpg",
-    "description": "Site Description"
+    "description": "Designer Kitchen Aprons"
   },
   "ga": "yourgooglenumberhere"
 }

@@ -4,12 +4,12 @@ import { SkipNavContent, SkipNavLink } from "./skip-nav"
 import { Footer } from "./footer"
 import { Seo } from "./seo"
 import 'fontsource-hammersmith-one'
-import '@fontsource/lobster-two'
+import '@fontsource/kanit'
 import { Link } from 'gatsby-plugin-modal-routing-3'
 import { ModalRoutingContext } from 'gatsby-plugin-modal-routing-3'
 import { AiOutlineClose } from "react-icons/ai"
 // import { FaHandPointDown } from "react-icons/fa"
-import TwilightLogo from "../../static/assets/TSidebarHover.svg"
+// import TwilightLogo from "../../static/assets/TSidebarHover.svg"
 import { StoreContext } from "../context/store-context"
 import { Toast } from "./toast"
 // import { FiShare } from 'react-icons/fi';
@@ -22,6 +22,7 @@ import Theme from "../components/theme"
 // import TouchUp from '../components/TouchUp'
 // import { IoMdFingerPrint } from 'react-icons/io'
 import "../assets/scss/style.scss"
+import "@fontsource/kanit/900.css"
 import { useSiteMetadata } from "../hooks/use-site-metadata"
 // import Consent from './Consent'
 import Install from './install-discount'
@@ -135,7 +136,7 @@ export function Layout({ children }) {
 
 
 
-    <ul className="sidebarMenuInner post-card" style={{maxWidth:'250px', position:'absolute', right:'0', display:'', justifyContent:''}}>
+    <ul className="sidebarMenuInner post-card" style={{maxWidth:'250px', position:'absolute', right:'0', display:'', justifyContent:'', boxShadow:'none', background:'#ccc', borderRadius:'12px 0 0 12px'}}>
 
  <li className="carta" style={{border:'none', margin:'1rem 0'}}>
 <Link to="/"> 
@@ -181,15 +182,15 @@ Contact Me<span>Ordering Questions?</span>
        </li> */}
 
 
-      <li className="carto">
+      {/* <li className="carto">
               <Link className="navbar-item txtshadow" to="/about/">
                 About Us <span>Our story</span>
               </Link>
-      </li>
+      </li> */}
 
-      <li className="carto">
+      {/* <li className="carto">
       <Link className="navbar-item txtshadow" to="/blog/">Blog<span>Latest Posts</span></Link>
-       </li>
+       </li> */}
 
 
       {/* <li className="carto">
@@ -207,12 +208,12 @@ Contact Me<span>Ordering Questions?</span>
 
 
 
-      <li className="carto" style={{textAlign:'center'}}>
+      {/* <li className="carto" style={{textAlign:'center'}}>
               <Link className="navbar-item txtshadow" to="/photos/">
       
               View Photos <span style={{color:'var(--primary-color)',}}>start here</span>
               </Link>
-      </li> 
+      </li>  */}
     
       <li className="carta">
       <div style={{display:'flex', justifyContent:'center'}}>
@@ -230,9 +231,9 @@ Contact Me<span>Ordering Questions?</span>
       <li className="carto crypto" style={{border:'none', display:'flex', justifyContent:'space-between', verticalAlign:'center', padding:'0 20px',  }}>
   
       <Theme  style={{padding:'0'}} />
-   <Link className="sherlock" to="/search" style={{marginRight:'0', marginTop:'5px'}}>
+   {/* <Link className="sherlock" to="/search" style={{marginRight:'0', marginTop:'5px'}}>
     <span className="carto"><SearchIcon /></span>
-   </Link>
+   </Link> */}
    
   <div className="carto"><CartButton quantity={quantity} /></div>
 

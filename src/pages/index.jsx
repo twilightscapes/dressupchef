@@ -2,11 +2,11 @@
 
 import * as React from "react"
 import { graphql, Link } from "gatsby"
-import { Seo } from "../../components/seo"
-import { Layout } from "../../components/layout"
-import { ProductListing } from "../../components/product-listing"
+import { Seo } from "../components/seo"
+import { Layout } from "../components/layout"
+import { ProductListing } from "../components/product-listing"
 import { FaHandPointDown } from "react-icons/fa"
-import Intro2 from '../../components/Intro2'
+import Intro2 from '../components/Intro2'
 // import GalleryMenu from "../../components/galleryMenu"
 // import { Helmet } from "react-helmet"
 // import TouchUp from '../components/TouchUp'
@@ -97,7 +97,7 @@ export default function GalleryPage({ data }) {
       <div className="flexcheek seotext" style={{padding:'0 3% 3rem 3%',}}>
 
 
-          <h1 className="title1">Dress Up Chef</h1>
+          <h1 className="title1">DRESS UP CHEF</h1>
           <p
             className="tagline1"
           >

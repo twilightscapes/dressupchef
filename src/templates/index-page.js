@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import { graphql, Link } from "gatsby"
+import { graphql, Link, GatsbyImage } from "gatsby"
 
 import { RiArrowRightSLine } from "react-icons/ri"
 import Intro2 from '../components/Intro2'
@@ -15,7 +15,7 @@ import styled from "styled-components"
 import BlogListHome from "../components/blog-list-home"
 import { Seo } from "../components/seo"
 import { Layout } from "../components/layout"
-
+import { StaticImage } from "gatsby-plugin-image"
 const CustomBox = styled.div`
 
 
@@ -65,7 +65,30 @@ export const pageQuery = graphql`
         }
       }
     }
+    allImageSharp {
+      edges {
+        node {
+          fields {
+            exif {
+              gps {
+                longitude
+                latitude
+              }
+              meta {
+                dateTaken
+              }
+              raw {
+                image {
+                  Make
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
+
 `
 
 
@@ -167,7 +190,12 @@ const HomePage2 = ({ data }) => {
 
 
       <div style={{padding:'2rem 3%'}}>
-        <BlogListHome data={posts} />
+        {/* <BlogListHome data={posts} /> */}
+
+
+        <StaticImage style={{backgroundSize:'cover', width:'100%'}} className="" src="../img/4B4A9560.png" alt="Colorado at night with Twilightscapes" />
+
+
         </div>
 
 

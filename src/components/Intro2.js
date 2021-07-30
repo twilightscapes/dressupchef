@@ -39,7 +39,7 @@ const Intro2 = () => (
 
 <div className="" style={{zIndex:'-1', width:'', height:'', backgroundSize:'cover'}}>
   
-  <StaticImage style={{backgroundSize:'cover', width:'100%'}} className="" src="../img/4B4A9560.jpg" alt="Colorado at night with Twilightscapes" />
+  <StaticImage style={{backgroundSize:'cover', width:'100%'}} className="" src="../img/shirts.png" alt="Colorado at night with Twilightscapes" />
 
 {/* <Night319 /> */}
 
@@ -112,7 +112,7 @@ const Intro2 = () => (
 right:'', border:'0px solid yellow', justifyContent:'center', width:'', textAlign:'center', display:'flex', borderRadius:'12px'}}>
 
 
-  <Newsignup />
+  {/* <Newsignup /> */}
 </ScrollAnimation>
 
 
