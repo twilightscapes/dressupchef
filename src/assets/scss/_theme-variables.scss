@@ -17,10 +17,10 @@ $breakpoint-xl: 1200px;
   --home-link-color: var(--primary);
   // --home-link-hover-color: var(--primary-color);
 
-  --home-link-hover-color: #D44100;
+  --home-link-hover-color: var(--primary-color);
 
   --button-color: #e5c3d3;
-  --button-alternate-color: #D44100;
+  --button-alternate-color: #var(--primary-color);
 
   --post-link-color: #0f070b;
 

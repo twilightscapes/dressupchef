@@ -34,6 +34,7 @@ const themeStyles = {
       cursor: "pointer",
       mt: "-2px",
       p: "0 0 0 0",
+      color: "#222",
       "&:hover": {
         color: "var(--primary-color)",
       },
@@ -42,7 +43,7 @@ const themeStyles = {
   modeIcons: {
     display: "flex",
     alignItems: "center",
-    color: "#ccc",
+    color: "#222",
     mt: "10px",
     "&:hover": {
       color: "color:var(--primary-color)",

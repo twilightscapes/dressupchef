@@ -313,7 +313,7 @@ export default function Product({ data: { product, suggestions } }) {
 
 
 
-<div className="round" style={{ overflow:'hidden', position:'relative', zIndex:'0'}}>
+{/* <div className="round" style={{ overflow:'hidden', position:'relative', zIndex:'0'}}>
 
   <h3 style={{fontSize:'130%', fontWeight:'bold', textAlign:'center'}}>About the photographer</h3>
 
@@ -332,7 +332,7 @@ export default function Product({ data: { product, suggestions } }) {
   
     <StaticImage src="../../../img/todd-horizons.jpg" alt="Todd in the Field" className="round" />
         
-</div>
+</div> */}
 
 {/* <br />
 <br />

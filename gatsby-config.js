@@ -25,6 +25,7 @@ module.exports = {
         storeUrl: process.env.GATSBY_SHOPIFY_STORE_URL,
         shopifyConnections: ["collections"],
         shopName: ["sales.twilightscapes.com"],
+        salesChannel: "urban-app"
       },
     },
 

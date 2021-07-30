@@ -126,7 +126,7 @@ export function Layout({ children }) {
 
 
 
-  <Install />
+  {/* <Install /> */}
 
 
 
@@ -228,14 +228,14 @@ Contact Me<span>Ordering Questions?</span>
 
       
 
-      <li className="carto crypto" style={{border:'none', display:'flex', justifyContent:'space-between', verticalAlign:'center', padding:'0 20px',  }}>
+      <li className="carto1 crypto" style={{border:'none', display:'flex', justifyContent:'space-around', verticalAlign:'center', padding:'0 20px', color:'#222 !important'  }}>
   
-      <Theme  style={{padding:'0'}} />
+      <Theme  style={{padding:'0', color:'#222 !important'}} />
    {/* <Link className="sherlock" to="/search" style={{marginRight:'0', marginTop:'5px'}}>
     <span className="carto"><SearchIcon /></span>
    </Link> */}
    
-  <div className="carto"><CartButton quantity={quantity} /></div>
+  <div className="carto"><CartButton quantity={quantity}  style={{padding:'0', color:'#222'}} /></div>
 
 
         </li>

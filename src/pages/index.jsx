@@ -30,7 +30,7 @@ const CustomBox = styled.div`
 
 
 
-img{cursor: zoom-in !important;}
+// img{cursor: zoom-in !important;}
 
 
 
@@ -101,12 +101,44 @@ export default function GalleryPage({ data }) {
           <p
             className="tagline1"
           >
-            Handmade Design Aprons
+            Handmade Designer Kitchen Aprons
           </p>
 
           
+          <p>This site is an outlet for a hobby that I took up during Hurricane Katrina.  I had a bunch of extra shirts that I had bought for my husband and my son that they didn't want. </p>
+          
+
+ 
+
+ <div className="split nowrap" style={{display:'flex', justifyContent:'center', alignItems:'center', flexWrap:'no-wrap', position:'relative',  width:'92%', margin:'0 auto', padding:'0', borderRadius:'0', overflow:'',}}>
+
+<ScrollAnimation animateIn="slideInLeft" animateOut="" animateOnce={true} delay={100} style={{width:'70%', zIndex:'1',}}>    
+
+
+
+
+<blockquote style={{width:'', margin:'0'}}>I started by creating an apron for myself and then others saw it and wanted one too. <br /><br />Soon, I had made one for all of my friends, so I figured ya'll might like one as well? </blockquote>
+
+
+
+
+</ScrollAnimation>
+
+<ScrollAnimation animateIn="slideInRight" animateOut="" animateOnce={true} delay={100} style={{width:'30%', padding:'0', order:'2 !important',  zIndex:'0',}}>    
+
+<div className="imgbox grad" style={{border:'4px solid #fff', position:'relative', margin:'0 0 0 0', borderRadius:'50%', padding:'0', overflow:'hidden', clipPath:'circle()',
+border:'2px solid white'}} ><StaticImage alt="Co-worker talks about Todd Lambert" src="../img/mom-icon.jpg" style={{borderColor:'transparent', borderRadius:'40%'}} />
+<div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}>Laura Lambert</div>
+</div>
+</ScrollAnimation>
+
+</div>
+
+
+
+
   
-          <Link
+          {/* <Link
             to="/art/apron"
             className="actionJackson txtshadow"
             style={{
@@ -120,11 +152,11 @@ export default function GalleryPage({ data }) {
             <span className="icon -right">
               <RiArrowRightSLine />
             </span>
-          </Link>
+          </Link> */}
 
 
-          
-
+          <br /><br />
+<StaticImage alt="Dress Up Chef" src="../img/product-close-up.jpg" style={{borderColor:'transparent',}} />
 
       </div>
 
@@ -167,7 +199,7 @@ export default function GalleryPage({ data }) {
 
 
 
-
+        <h3 style={{textAlign:'center', fontSize:'160%', fontWeight:'bold', maxWidth:'700px', margin:'3rem  auto 0 auto'}}>Current Available Aprons</h3>
 
     
 

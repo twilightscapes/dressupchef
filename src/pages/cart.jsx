@@ -49,14 +49,14 @@ export default function CartPage() {
       <div className={wrap} style={{minHeight:'100vh'}}>
         {emptyCart ? (
           <div className={emptyStateContainer} style={{paddingTop:'5rem'}}>
-            <h1 className={emptyStateHeading}>Your cart is empty</h1>
+            <h1 className={emptyStateHeading} style={{fontSize:'4vw'}}>Your cart is empty</h1>
             <p>
               Looks like you haven’t found anything yet. We understand that
-              sometimes it’s hard to choose — maybe this helps:
+              sometimes it’s hard to choose.
             </p>
-            <Link to="/search?s=BEST_SELLING" className={emptyStateLink}>
+            {/* <Link to="/search?s=BEST_SELLING" className={emptyStateLink}>
               View  whats trending
-            </Link>
+            </Link> */}
 
             {/* <h3 style={{textAlign:'center', fontSize:'160%', fontWeight:'bold', maxWidth:'700px', margin:'40vh auto 0 auto'}}>Pre-order questions?</h3>
 
