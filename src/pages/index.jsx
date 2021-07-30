@@ -112,7 +112,7 @@ export default function GalleryPage({ data }) {
 
  <div className="split nowrap" style={{display:'flex', justifyContent:'center', alignItems:'center', flexWrap:'no-wrap', position:'relative',  width:'92%', margin:'0 auto', padding:'0', borderRadius:'0', overflow:'',}}>
 
-<ScrollAnimation animateIn="slideInLeft" animateOut="" animateOnce={true} delay={100} style={{width:'70%', zIndex:'1',}}>    
+<ScrollAnimation animateIn="slideInLeft" animateOut="" animateOnce={true} delay={100} style={{width:'60%',}}>    
 
 
 
@@ -124,10 +124,10 @@ export default function GalleryPage({ data }) {
 
 </ScrollAnimation>
 
-<ScrollAnimation animateIn="slideInRight" animateOut="" animateOnce={true} delay={100} style={{width:'30%', padding:'0', order:'2 !important',  zIndex:'0',}}>    
+<ScrollAnimation animateIn="slideInRight" animateOut="" animateOnce={true} delay={100} style={{width:'40%', padding:'0', order:'2 !important',  zIndex:'0', filter: 'drop-shadow(0px 0px 3px #222)'}}>    
 
 <div className="imgbox grad" style={{border:'4px solid #fff', position:'relative', margin:'0 0 0 0', borderRadius:'50%', padding:'0', overflow:'hidden', clipPath:'circle()',
-border:'2px solid white'}} ><StaticImage alt="Co-worker talks about Todd Lambert" src="../img/mom-icon.jpg" style={{borderColor:'transparent', borderRadius:'40%'}} />
+border:'4px solid white', }} ><StaticImage alt="Co-worker talks about Todd Lambert" src="../img/mom-icon.jpg" style={{borderColor:'transparent', borderRadius:'40%'}} />
 <div className="txtshadow" style={{position:'absolute', left:'0', bottom:'5px', fontSize:'70%', color:'#ddd', textAlign:'center', width:'100%',}}>Laura Lambert</div>
 </div>
 </ScrollAnimation>

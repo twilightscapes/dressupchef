@@ -160,7 +160,7 @@ export default function Product({ data: { product, suggestions } }) {
                 aria-label="gallery"
                 aria-describedby="instructions"
               >
-                <ul className={productImageList} style={{minHeight:'100vh'}}>
+                <ul className={productImageList} style={{minHeight:'90vh'}}>
                   {images.map((image, index) => (
                     <li
                       key={`product-image-${image.id}`}
@@ -175,7 +175,7 @@ export default function Product({ data: { product, suggestions } }) {
 
                       {/* <img className="spinned" src={spinner} alt="Twilightscapes" style={{height:'100%', width:'100%', position:'fixed', top:'0', left:'0',  zIndex:'-1', border:'1px solid yellow', display:'block'}} /> */}
                       <div className="mobilefixa" style={{textAlign:'center',}}>
-           <GoBack />
+           {/* <GoBack /> */}
             </div>
                       </div>
 
@@ -209,11 +209,11 @@ export default function Product({ data: { product, suggestions } }) {
 
           
 
-      <div className={container}>
+      <div className={container} style={{}}>
 <div className="flexbutt" style={{display:'flex', gap:'30px'}}>
 
 <div className="flexcheek" style={{width:'70%'}}>
-<ShareSocial className="print" />
+
             {/* <div className={breadcrumb}>
               <Link to={product.productTypeSlug}>{product.productType}</Link>
               
@@ -368,7 +368,7 @@ export default function Product({ data: { product, suggestions } }) {
 
 
 
-
+        <ShareSocial className="print" />
 
         <div style={{textAlign:'center', margin:'20px'}}>
           
