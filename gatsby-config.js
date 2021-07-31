@@ -25,7 +25,7 @@ module.exports = {
         storeUrl: process.env.GATSBY_SHOPIFY_STORE_URL,
         shopifyConnections: ["collections"],
         shopName: ["sales.twilightscapes.com"],
-        salesChannel: "urban-app"
+        // salesChannel: "urban-app"
       },
     },
 
@@ -179,8 +179,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `YourApp`,
-        short_name: `YourApp`,
+        name: `DressUpChef`,
+        short_name: `DressUpChef`,
         start_url: `/`,
         background_color: `#111`,
         theme_color: `#111`,

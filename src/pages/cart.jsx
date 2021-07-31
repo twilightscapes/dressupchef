@@ -4,11 +4,6 @@ import { Layout } from "../components/layout"
 import { StoreContext } from "../context/store-context"
 import { LineItem } from "../components/line-item"
 import { formatPrice } from "../utils/format-price"
-// import { FaHandPointDown } from "react-icons/fa"
-// import ScrollAnimation from 'react-animate-on-scroll'
-
-import { Helmet } from "react-helmet"
-
 import {
   table,
   wrap,
@@ -31,54 +26,33 @@ export default function CartPage() {
   const emptyCart = checkout.lineItems.length === 0
 
   const handleCheckout = () => {
-    window.location.replace(checkout.webUrl)
-
-
+    window.open(checkout.webUrl)
   }
 
   return (
-<>
-<Helmet>
-    <body className="carto" />
-</Helmet>
-
-
-
-
     <Layout>
-      <div className={wrap} style={{minHeight:'100vh'}}>
+      <div className={wrap}>
         {emptyCart ? (
-          <div className={emptyStateContainer} style={{paddingTop:'5rem'}}>
-            <h1 className={emptyStateHeading} style={{fontSize:'4vw'}}>Your cart is empty</h1>
+          <div className={emptyStateContainer}>
+            <h1 className={emptyStateHeading}>Your cart is empty</h1>
             <p>
               Looks like you haven’t found anything yet. We understand that
-              sometimes it’s hard to choose.
+              sometimes it’s hard to chose — maybe this helps:
             </p>
-            {/* <Link to="/search?s=BEST_SELLING" className={emptyStateLink}>
-              View  whats trending
-            </Link> */}
-
-            {/* <h3 style={{textAlign:'center', fontSize:'160%', fontWeight:'bold', maxWidth:'700px', margin:'40vh auto 0 auto'}}>Pre-order questions?</h3>
-
-<ScrollAnimation animateIn="bounce" duration={1} animateOnce={false} animatePreScroll={false} >
-<FaHandPointDown className="bounce" style={{fontSize:'80px', textAlign:'center', width:'100%', margin:'1rem auto'}} />
-</ScrollAnimation> */}
-
+            <Link to="/search?s=BEST_SELLING" className={emptyStateLink}>
+              View trending products
+            </Link>
           </div>
-
         ) : (
           <>
             <h1 className={title}>Your cart</h1>
-            {/* <div className="has-app promocode1" style={{textAlign:'center', fontSize:'30px', margin:'0 0 2rem 0'}}>
-30% OFF CODE: <span style={{color:'var(--primary-color)', fontWeight:'bold'}}>LoveTheNight</span>
-</div> */}
             <table className={table}>
               <thead>
                 <tr>
                   <th className={imageHeader}>Image</th>
-                  <th className={productHeader}>Your Item:</th>
+                  <th className={productHeader}>Product</th>
                   <th className={collapseColumn}>Price</th>
-                  <th></th>
+                  <th>Qty.</th>
                   <th className={[totals, collapseColumn].join(" ")}>Total</th>
                 </tr>
               </thead>
@@ -111,13 +85,13 @@ export default function CartPage() {
                     )}
                   </td>
                 </tr>
-                {/* <tr className={summary}>
+                <tr className={summary}>
                   <td className={collapseColumn}></td>
                   <td className={collapseColumn}></td>
                   <td className={collapseColumn}></td>
                   <td className={labelColumn}>Shipping</td>
                   <td className={totals}>Calculated at checkout</td>
-                </tr> */}
+                </tr>
                 <tr className={grandTotal}>
                   <td className={collapseColumn}></td>
                   <td className={collapseColumn}></td>
@@ -143,6 +117,5 @@ export default function CartPage() {
         )}
       </div>
     </Layout>
-    </>
   )
 }
