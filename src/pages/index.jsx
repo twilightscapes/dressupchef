@@ -98,7 +98,7 @@ export default function GalleryPage({ data }) {
       <div className="flexcheek seotext" style={{padding:'0 3% 3rem 3%',}}>
 
 
-          <h1 className="title1">DRESS UP CHEF</h1>
+          <h1 className="title1" style={{color:'var(--primary-color)'}}>DRESS UP CHEF</h1>
           <p
             className="tagline1"
           >
