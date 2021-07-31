@@ -20,6 +20,7 @@ import { FiZoomIn } from 'react-icons/fi'
 //   callToAction,
 //   deployButton,
 // } from "../../index.module.css"
+import ShareSocial from '../components/share' 
 import { StaticImage } from "gatsby-plugin-image"
 import { RiArrowRightSLine } from "react-icons/ri"
 import ScrollAnimation from 'react-animate-on-scroll'
@@ -101,7 +102,7 @@ export default function GalleryPage({ data }) {
           <p
             className="tagline1"
           >
-            Handmade Designer Kitchen Aprons
+            Handmade Kitchen Aprons Made From Mens Dress Shirts
           </p>
 
           
@@ -109,7 +110,7 @@ export default function GalleryPage({ data }) {
           
 
  
-
+<br />
  <div className="split nowrap" style={{display:'flex', justifyContent:'center', alignItems:'center', flexWrap:'no-wrap', position:'relative',  width:'92%', margin:'0 auto', padding:'0', borderRadius:'0', overflow:'',}}>
 
 <ScrollAnimation animateIn="slideInLeft" animateOut="" animateOnce={true} delay={100} style={{width:'60%',}}>    
@@ -206,6 +207,12 @@ border:'4px solid white', }} ><StaticImage alt="Co-worker talks about Todd Lambe
     <div className="frontprod" style={{marginTop:'2rem'}}>
       <ProductListing products={data.shopifyCollection.products} className="frontprod" />
 </div>
+<br />
+<br />
+<br />
+<ShareSocial className="print" />
+
+
       {/* <Link
               className="moreButton"
               sx={{
