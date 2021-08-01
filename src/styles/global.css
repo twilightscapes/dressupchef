@@ -108,7 +108,7 @@ h1,h2,h3,.h1,.h2,.brand {font-family: Kanit; font-weight: 900;}
 
 .gatsby-image-wrapper [data-main-image] {
   border-radius: var(--radius-sm);
-  border-radius: 0;
+  border-radius: 12px;
 }
 
 

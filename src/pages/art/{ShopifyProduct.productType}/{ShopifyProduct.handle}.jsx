@@ -226,7 +226,7 @@ export default function Product({ data: { product, suggestions } }) {
             <span className="print">
             <h2 className={priceValue}>
              <strong style={{fontSize:'30px'}}>{price}</strong>
-              {/* <br /> High-Res Print Ready Art */}
+              <br /> Hand-Made - 100% Unique one-of-a-kind
             </h2>
          
 
