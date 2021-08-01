@@ -8,11 +8,11 @@
     "siteTitle": "Dress Up Chef",
     "titleTemplate": "%s",
     "twitter": "toddlambert",
-    "siteImage": "/default-og-image.jpg",
+    "siteImage": "https://dressupchef.com/default-og-image.jpg",
     "siteDescription": "Designer Kitchen Aprons",
     "title": "Dress Up Chef",
     "hrefLang": "en",
-    "image": "/assets/default-og-image.jpg",
+    "image": "https://dressupchef.com/default-og-image.jpg",
     "description": "Designer Kitchen Aprons"
   },
   "ga": "yourgooglenumberhere"
