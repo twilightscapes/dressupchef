@@ -224,6 +224,24 @@ border:'4px solid white', }} ><StaticImage alt="Co-worker talks about Todd Lambe
 </div>
 <br />
 <br />
+
+<h3 style={{textAlign:'center', fontSize:'160%', fontWeight:'bold', maxWidth:'700px', margin:'3rem  auto 0 auto'}}>Special Orders &amp; Custom Work</h3>
+<div className="brand" style={{display:'flex', border:'1px solid #666', padding:'1rem', margin:'0 auto 0 auto', borderRadius:'12px', height:'', textAlign:'center', justifyContent:'space-between', alignContent:'center', alignItems:'center', maxWidth:'90%', gap:'20px', background:''}}>
+
+<div style={{textAlign:'left'}}>
+<p>We love collaborating and working on custom pieces as nothing makes us happier than seeing you happy with something special you can use everyday.</p>
+<p>We can integrate your own materials and we love making personalized mementos and memorial pieces such as clothing from a loved one, a fallen heroes uniform, etc...</p>
+</div>
+
+<div>
+<StaticImage alt="Dress Up Chef" src="../img/heros.jpg" style={{borderColor:'transparent', maxWidth:'300px'}} />
+<p>We'd be honored to help you honor the memory of your loved one.</p>
+</div>
+
+</div>
+{/* <p style={{textAlign:'center'}}></p> */}
+
+
 <br />
 
 <p style={{textAlign:'center', margin:'2rem 0 0 0'}}>Please SHARE:</p>
