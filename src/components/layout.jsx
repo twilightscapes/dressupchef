@@ -160,8 +160,8 @@ export function Layout({ children }) {
 
 
 
- <li className="carto">
- <Link className="navbar-item txtshadow" to="/contact/">
+ <li className="carto" style={{textAlign:'center'}}>
+ <Link className="navbar-item" to="/contact/" style={{color:'var(--primary-color)',}}>
 Contact Us<span></span>
 </Link>
 
@@ -208,12 +208,12 @@ Contact Me<span>Ordering Questions?</span>
 
 
 
-      {/* <li className="carto" style={{textAlign:'center'}}>
-              <Link className="navbar-item txtshadow" to="/photos/">
+      <li className="carto" style={{textAlign:'center', color:'var(--primary-color)',}}>
+              <Link className="navbar-item" to="/contact" style={{color:'var(--primary-color)',}}>
       
-              View Photos <span style={{color:'var(--primary-color)',}}>start here</span>
+              Special Orders <span style={{color:'var(--primary-color)',}}>Got a request?</span>
               </Link>
-      </li>  */}
+      </li> 
     
       <li className="carta">
       <div style={{display:'flex', justifyContent:'center'}}>

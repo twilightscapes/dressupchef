@@ -7,6 +7,7 @@ import { Layout } from "../components/layout"
 import { ProductListing } from "../components/product-listing"
 import { FaHandPointDown } from "react-icons/fa"
 import Intro2 from '../components/Intro2'
+import LogoMark from "../../static/assets/DUC-logomark.svg"
 // import GalleryMenu from "../../components/galleryMenu"
 // import { Helmet } from "react-helmet"
 // import TouchUp from '../components/TouchUp'
@@ -65,7 +66,7 @@ export default function GalleryPage({ data }) {
 <Seo
           title={`Dress Up Chef - Designer Kitchen Aprons`}
           description={`Designer Kitch Aprons handmade from Mens Dress Shirts - one of a kind unique hand sewn aprons`}
-          image={'https://dressupchef.com/default-og-image-blank.jpg'}
+          image={'https://dressupchef.com/default-og-image.jpg'}
         />
 
 
@@ -97,18 +98,18 @@ export default function GalleryPage({ data }) {
 
       <div className="flexcheek seotext" style={{padding:'0 3% 3rem 3%',}}>
 
+      <div style={{display:'flex', justifyContent:'center', padding:'0 0', alignContent:'center', alignItems:'center'}}><LogoMark style={{maxWidth:'40%', filter:'drop-shadow(1px 1px 0px #111)' }} />
 
-          <h1 className="title1" style={{color:'var(--primary-color)'}}>DRESS UP CHEF</h1>
+          <h1 className="title0" style={{color:'var(--primary-color)', fontSize:'60px', lineHeight:'100%', textAlign:'center', textShadow:'0px 1px 1px 2px #000', filter:'drop-shadow(1px 1px 1px #000)'}}>DRESS UP<br /> CHEF</h1></div>
           <p
             className="tagline1"
           >
             Handmade Kitchen Aprons Made From Mens Dress Shirts
           </p>
 
+          <p>Hi, I'm Laura and welcome to Dress Up Chef. This site is an outlet for a hobby that I took up during Hurricane Katrina.</p>
           
-          <p>This site is an outlet for a hobby that I took up during Hurricane Katrina.  I had a bunch of extra shirts that I had bought for my husband and my son that they didn't want. </p>
-          
-
+{/* I had a bunch of extra shirts that I had bought for my husband and my son that they didn't want. */}
  
 <br />
  <div className="split nowrap" style={{display:'flex', justifyContent:'center', alignItems:'center', flexWrap:'no-wrap', position:'relative',  width:'92%', margin:'0 auto', padding:'0', borderRadius:'0', overflow:'',}}>
@@ -210,6 +211,8 @@ border:'4px solid white', }} ><StaticImage alt="Co-worker talks about Todd Lambe
 <br />
 <br />
 <br />
+
+<p style={{textAlign:'center', margin:'2rem 0 0 0'}}>Please SHARE:</p>
 <ShareSocial className="print" />
 
 
