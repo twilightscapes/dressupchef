@@ -231,6 +231,8 @@ border:'4px solid white', }} ><StaticImage alt="Co-worker talks about Todd Lambe
 <div style={{textAlign:'left'}}>
 <p>We love collaborating and working on custom pieces as nothing makes us happier than seeing you happy with something special you can use everyday.</p>
 <p>We can integrate your own materials and we love making personalized mementos and memorial pieces such as clothing from a loved one, a fallen heroes uniform, etc...</p>
+
+<p style={{textAlign:'center'}}><Link state={{modal: true}} to="/contact/" className="navbar-item  button fire" style={{margin:'2rem'}}>Got a Request?</Link></p>
 </div>
 
 <div>
@@ -244,7 +246,7 @@ border:'4px solid white', }} ><StaticImage alt="Co-worker talks about Todd Lambe
 
 <br />
 
-<p style={{textAlign:'center', margin:'2rem 0 0 0'}}>Please SHARE:</p>
+<p style={{textAlign:'center', margin:'2rem auto 0 auto'}}>Please SHARE:</p>
 <ShareSocial className="print" />
 
 

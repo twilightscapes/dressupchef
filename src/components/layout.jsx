@@ -101,7 +101,7 @@ export function Layout({ children }) {
 
 {/* <IoMdFingerPrint style={{fontSize:'60px', marginLeft:'20px' }}/> */}
 
-{/* <span>MENU</span> */}
+<span style={{}}>MENU</span>
     <div className="spinner diagonal part-1"></div>
     <div className="spinner horizontal"></div>
     <div className="spinner diagonal part-2"></div>
@@ -200,12 +200,12 @@ Contact Us<span></span>
 
 
 
-      <li className="carto" style={{textAlign:'center', color:'var(--primary-color)',}}>
+      {/* <li className="carto" style={{textAlign:'center', color:'var(--primary-color)',}}>
               <Link className="navbar-item" to="/contact" style={{color:'var(--primary-color)',}}>
       
               Special Orders <span style={{color:'var(--primary-color)',}}>Got a request?</span>
               </Link>
-      </li> 
+      </li>  */}
     
       <li className="carta">
       <div style={{display:'flex', justifyContent:'center'}}>
