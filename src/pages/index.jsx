@@ -102,12 +102,12 @@ export default function GalleryPage({ data }) {
 
           <h1 className="title0" style={{color:'var(--primary-color)', fontSize:'60px', lineHeight:'100%', textAlign:'center', textShadow:'0px 1px 1px 2px #000', filter:'drop-shadow(1px 1px 1px #000)'}}>DRESS UP<br /> CHEF</h1></div>
           <p
-            className="tagline1"
+            className="brand" style={{fontSize:'18px', marginTop:'2rem', textAlign:'center',}}
           >
-            Handmade Kitchen Aprons Made From Mens Dress Shirts
+            Handmade Kitchen Aprons Made From Mens Dress Shirts.
           </p>
 
-          <p>Hi, I'm Laura and welcome to Dress Up Chef. This site is an outlet for a hobby that I took up during Hurricane Katrina.</p>
+          <p>Hi, I'm Laura and welcome to Dress Up Chef. This site is an outlet that my son set up me to sell a hobby that I took up during Hurricane Katrina.</p>
           
 {/* I had a bunch of extra shirts that I had bought for my husband and my son that they didn't want. */}
  
