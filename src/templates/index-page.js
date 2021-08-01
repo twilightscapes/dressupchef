@@ -65,28 +65,6 @@ export const pageQuery = graphql`
         }
       }
     }
-    allImageSharp {
-      edges {
-        node {
-          fields {
-            exif {
-              gps {
-                longitude
-                latitude
-              }
-              meta {
-                dateTaken
-              }
-              raw {
-                image {
-                  Make
-                }
-              }
-            }
-          }
-        }
-      }
-    }
   }
 
 `
@@ -193,7 +171,7 @@ const HomePage2 = ({ data }) => {
         {/* <BlogListHome data={posts} /> */}
 
 
-        <StaticImage style={{backgroundSize:'cover', width:'100%'}} className="" src="../img/4B4A9560.png" alt="Colorado at night with Twilightscapes" />
+        {/* <StaticImage style={{backgroundSize:'cover', width:'100%'}} className="" src="../img/4B4A9560.png" alt="Colorado at night with Twilightscapes" /> */}
 
 
         </div>

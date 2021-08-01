@@ -76,6 +76,6 @@
     "urql": "^2.0.2"
   },
   "devDependencies": {
-    "gatsby-plugin-sharp-exif": "^1.0.4"
+
   }
 }
