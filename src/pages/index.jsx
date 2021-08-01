@@ -197,11 +197,25 @@ border:'4px solid white', }} ><StaticImage alt="Co-worker talks about Todd Lambe
 
 
 
+        {/* <div style={{display:'flex', border:'1px solid #666', padding:'1rem', margin:'0 3% 0 3%', borderRadius:'12px', height:'', textAlign:'center', justifyContent:'space-around', alignContent:'center', alignItems:'center', maxWidth:'800px', gap:'20px', background:''}}>
+        <h2 style={{textAlign:'center', fontSize:'160%', fontWeight:'bold', maxWidth:'700px', margin:'3rem  auto 0 auto'}}>FREE SHIPPING ON ALL ORDERS!</h2>
+</div> */}
+
+
+
+<div className="brand" style={{display:'flex', border:'1px solid #666', padding:'1rem', margin:'0 auto 0 auto', borderRadius:'12px', height:'', textAlign:'center', justifyContent:'space-around', alignContent:'center', alignItems:'center', maxWidth:'90%', gap:'20px', background:''}}>
+
+  <span style={{fontSize:'60px', transform:'rotate()', lineHeight:'80%'}}>FREE <br /><span style={{letterSpacing:''}}>Shipping</span></span>
+
+  <span style={{fontSize:'60px', color:'var(--primary-color)', lineHeight:'90%'}}>
+  On all <br /> Orders!
+  </span>
+</div>
 
 
 
 
-        <h3 style={{textAlign:'center', fontSize:'160%', fontWeight:'bold', maxWidth:'700px', margin:'3rem  auto 0 auto'}}>Current Available Aprons</h3>
+        <h3 style={{textAlign:'center', fontSize:'160%', fontWeight:'bold', maxWidth:'700px', margin:'3rem  auto 0 auto'}}>Currently Available Aprons</h3>
 
     
 
