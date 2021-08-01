@@ -107,7 +107,7 @@ export default function GalleryPage({ data }) {
           
   
           <Link
-            to="/art/apron"
+            to="/designer-aprons/apron"
             className="actionJackson txtshadow"
             style={{
               cursor:'pointer',

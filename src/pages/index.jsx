@@ -141,7 +141,7 @@ border:'4px solid white', }} ><StaticImage alt="Co-worker talks about Todd Lambe
 
   
           {/* <Link
-            to="/art/apron"
+            to="/designer-aprons/apron"
             className="actionJackson txtshadow"
             style={{
               cursor:'pointer',
