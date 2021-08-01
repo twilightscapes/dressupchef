@@ -59,7 +59,7 @@ export default function GalleryPage({ data }) {
   return (
 <> 
 <Helmet>
-    <body className="gallery" />
+    <body className="homepage1" />
     
 </Helmet>
 

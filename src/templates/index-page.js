@@ -109,7 +109,7 @@ const HomePage2 = ({ data }) => {
 <Seo
           title={`Photo Galleries`}
           description={`photography`}
-          image={'/default-og-image.jpg'}
+          image={'https:dressupchef.com/default-og-image.jpg'}
         />
       
       <div className="home-banner flexbutt" style={{position:'relative', height:'auto', overflow:'hidden'}}>
