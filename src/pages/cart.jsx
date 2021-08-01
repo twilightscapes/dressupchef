@@ -49,7 +49,7 @@ export default function CartPage() {
       <div className={wrap} style={{minHeight:'100vh'}}>
         {emptyCart ? (
           <div className={emptyStateContainer} style={{paddingTop:'5rem'}}>
-            <h1 className={emptyStateHeading} style={{fontSize:'4vw'}}>Your cart is empty</h1>
+            <h1 className="" style={{fontSize:'4vw'}}>Your cart is empty</h1>
             <p>
               Looks like you haven’t found anything yet. We understand that
               sometimes it’s hard to choose.
