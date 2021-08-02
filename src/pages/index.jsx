@@ -102,9 +102,9 @@ export default function GalleryPage({ data }) {
 
           <h1 className="title0" style={{color:'var(--primary-color)', fontSize:'60px', lineHeight:'100%', textAlign:'center', textShadow:'0px 1px 1px 2px #000', filter:'drop-shadow(1px 1px 1px #000)'}}>DRESS UP<br /> CHEF</h1></div>
           <p
-            className="brand" style={{fontSize:'18px', marginTop:'2rem', textAlign:'center',}}
+            className="brand" style={{fontSize:'2rem', marginTop:'2rem', textAlign:'center',}}
           >
-            Handmade Kitchen Aprons Made From Mens Dress Shirts.
+            Kitchen Aprons Handmade From Men's Dress Shirts.
           </p>
 
           <p>Hi, I'm Laura and welcome to Dress Up Chef. This site is an outlet that my son set up me to sell a hobby that I took up during Hurricane Katrina.</p>
