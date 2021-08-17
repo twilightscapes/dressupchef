@@ -52,7 +52,7 @@ const Install = () => (
     buttonText="No Thanks"
 	buttonStyle={{ background: "transparent", textDecoration:'underline', textAlign:'center', fontSize: "13px", bottom:'8%', position:'absolute', color:'inherit', }}
     expires={1}
-    cookieName="twilightscapes.com-install-cookie"
+    cookieName="dressupchef.com-install-cookie"
 >
 
 
