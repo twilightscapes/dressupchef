@@ -174,7 +174,6 @@ module.exports = {
         trackingId: settings.ga,
       },
     },
-    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -201,6 +200,24 @@ module.exports = {
       },
     },
     "gatsby-plugin-offline",
+
+    {
+      resolve: `gatsby-plugin-advanced-sitemap`,
+      options: {
+           
+          exclude: [
+              `/dev-404-page`,
+              `/404`,
+              `/404.html`,
+              `/offline-plugin-app-shell-fallback`,
+              `/my-excluded-page`,
+              /(\/)?hash-\S*/, // you can also pass valid RegExp to exclude internal tags for example
+          ],
+          createLinkInHead: true, // optional: create a link in the `<head>` of your site
+      }
+  }
+
+
   ],
 }
 
