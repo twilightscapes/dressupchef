@@ -25,7 +25,7 @@ left:'0', right:'0',  alignItems:'center', zIndex:'1', width:'100%',}}>
     contentStyle={{margin:'0', padding:'0', border:'0px solid red'}}
 
     expires={364}
-    cookieName="Twilightscapes.com-site-pref-cookie"
+    cookieName="DressUpChef.com-site-pref-cookie"
 >
 
 
