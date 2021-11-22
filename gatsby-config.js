@@ -24,7 +24,7 @@ module.exports = {
         password: process.env.SHOPIFY_SHOP_PASSWORD,
         storeUrl: process.env.GATSBY_SHOPIFY_STORE_URL,
         shopifyConnections: ["collections"],
-        salesChannel: "dressupchef",
+        salesChannel: "333466665120",
       },
     },
 
